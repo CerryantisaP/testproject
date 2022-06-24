@@ -4,18 +4,18 @@ import { Link } from "react-router-dom";
 export default function SideBar() {
   return (
     <div className="sidebar">
-      <ul>
+      <ul className="sidebar-list">
         <Link to="/transaksi">
-          <li>Transaksi</li>
+          <li className="side-list">Transaksi</li>
         </Link>
         <Link to="/edukasi">
-          <li>Edukasi Pengolahan Sampah</li>
+          <li className="side-list">Edukasi Pengolahan Sampah</li>
         </Link>
         <Link to="/penukaranpoin">
-          <li>Penukaran Poin</li>
+          <li className="side-list">Penukaran Poin</li>
         </Link>
         <Link to="/histori">
-          <li>Histori Transaksi</li>
+          <li className="side-list">Histori Transaksi</li>
         </Link>
       </ul>
     </div>
